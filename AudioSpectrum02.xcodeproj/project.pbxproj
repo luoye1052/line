@@ -12,6 +12,7 @@
 		462691D122408AA600D62D58 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 462691CE22408AA600D62D58 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 */; };
 		462691D222408AA600D62D58 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 462691CF22408AA600D62D58 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 */; };
 		462691D82240BB7000D62D58 /* B0D3E7E44198FA797CBFEAE00A800D58.gif in Resources */ = {isa = PBXBuildFile; fileRef = 462691D72240BB7000D62D58 /* B0D3E7E44198FA797CBFEAE00A800D58.gif */; };
+		462691DC2240BCAD00D62D58 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 462691DB2240BCAD00D62D58 /* README.md */; };
 		4B11626D21F01C970012C977 /* RealtimeAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11626C21F01C970012C977 /* RealtimeAnalyzer.swift */; };
 		4B582AE2221E8E4D00AD0AE0 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B582AE1221E8E4D00AD0AE0 /* TrackCell.swift */; };
 		4B79C0D021F816D70005E365 /* SpectrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79C0CF21F816D70005E365 /* SpectrumView.swift */; };
@@ -31,6 +32,7 @@
 		462691CE22408AA600D62D58 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3"; sourceTree = "<group>"; };
 		462691CF22408AA600D62D58 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02.Ellis - Clear My Head (Radio Edit) [NCS].mp3"; sourceTree = "<group>"; };
 		462691D72240BB7000D62D58 /* B0D3E7E44198FA797CBFEAE00A800D58.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = B0D3E7E44198FA797CBFEAE00A800D58.gif; sourceTree = "<group>"; };
+		462691DB2240BCAD00D62D58 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4B11626C21F01C970012C977 /* RealtimeAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeAnalyzer.swift; sourceTree = "<group>"; };
 		4B582AE1221E8E4D00AD0AE0 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		4B79C0CF21F816D70005E365 /* SpectrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		4B87BCD621D515F600732679 = {
 			isa = PBXGroup;
 			children = (
+				462691DB2240BCAD00D62D58 /* README.md */,
 				462691D62240BA6100D62D58 /* image */,
 				4BE6B368222FA89D0063A925 /* Audio */,
 				4B87BCE121D515F600732679 /* AudioSpectrum02 */,
@@ -185,6 +188,7 @@
 				4B87BCED21D515F900732679 /* LaunchScreen.storyboard in Resources */,
 				4B87BCEA21D515F900732679 /* Assets.xcassets in Resources */,
 				462691D82240BB7000D62D58 /* B0D3E7E44198FA797CBFEAE00A800D58.gif in Resources */,
+				462691DC2240BCAD00D62D58 /* README.md in Resources */,
 				4B87BCE821D515F600732679 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
