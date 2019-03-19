@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var trackTableView: UITableView!
     
     var player: AudioSpectrumPlayer!
-    var viewQ:lineView!
+    var view1:lineView!
+    var view2:lineView!
     private lazy var trackPaths: [String] = {
         var paths = Bundle.main.paths(forResourcesOfType: "mp3", inDirectory: nil)
         paths.sort()
@@ -32,9 +33,14 @@ class ViewController: UIViewController {
         player.delegate = self
         
         
-        viewQ = lineView(frame: CGRect(x: 100, y: 250, width: 200, height: 200))
+        view1 = lineView(frame: CGRect(x: 100, y: 70, width: 200, height: 200))
         
-        self.view.addSubview(viewQ)
+        self.view.addSubview(view1)
+
+        
+        view2 = lineView(frame: CGRect(x: 100, y: 320, width: 200, height: 200))
+        
+        self.view.addSubview(view2)
     }
     override func viewDidLayoutSubviews() {
         let barSpace = spectrumView.frame.width / CGFloat(player.analyzer.frequencyBands * 3 - 1)
@@ -78,9 +84,9 @@ extension ViewController: TrackCellDelegate {
 extension ViewController: AudioSpectrumPlayerDelegate {
     func player(_ player: AudioSpectrumPlayer, didGenerateSpectrum spectra: [[Float]]) {
         DispatchQueue.main.async {
-          self.viewQ.drawArc(withArry1: spectra[0], withArry2: spectra[1], with: CGPoint(x: 100, y: 200), withWidth: 100)
+          self.view1.drawArc(withArry1: spectra[0], withArry2: spectra[1], with: CGPoint(x: 100, y: 200), withWidth: 100)
             
-//            self.viewQ.drawLine(withArry: spectra[0], with: CGPoint(x: 100, y: 200), withWidth: 100);
+            self.view2.drawLine(withArry: spectra[0], with: CGPoint(x: 100, y: 200), withWidth: 100);
             
             
             self.spectrumView.spectra = spectra

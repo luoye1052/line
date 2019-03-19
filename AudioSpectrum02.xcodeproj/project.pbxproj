@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		462691CC223F9B3B00D62D58 /* lineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462691CB223F9B3B00D62D58 /* lineView.m */; };
+		462691D022408AA600D62D58 /* 03.Spektrum & Sara Skinner - Keep You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 462691CD22408AA600D62D58 /* 03.Spektrum & Sara Skinner - Keep You.mp3 */; };
+		462691D122408AA600D62D58 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 462691CE22408AA600D62D58 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 */; };
+		462691D222408AA600D62D58 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 462691CF22408AA600D62D58 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 */; };
 		4B11626D21F01C970012C977 /* RealtimeAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11626C21F01C970012C977 /* RealtimeAnalyzer.swift */; };
 		4B582AE2221E8E4D00AD0AE0 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B582AE1221E8E4D00AD0AE0 /* TrackCell.swift */; };
 		4B79C0D021F816D70005E365 /* SpectrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79C0CF21F816D70005E365 /* SpectrumView.swift */; };
@@ -17,15 +20,15 @@
 		4B87BCEA21D515F900732679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B87BCE921D515F900732679 /* Assets.xcassets */; };
 		4B87BCED21D515F900732679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B87BCEB21D515F900732679 /* LaunchScreen.storyboard */; };
 		4BC64F7621D53B9A00EE2DB7 /* AudioSpectrumPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC64F7521D53B9A00EE2DB7 /* AudioSpectrumPlayer.swift */; };
-		4BE6B36C222FA89D0063A925 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BE6B369222FA89D0063A925 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 */; };
-		4BE6B36D222FA89D0063A925 /* 03.Spektrum & Sara Skinner - Keep You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BE6B36A222FA89D0063A925 /* 03.Spektrum & Sara Skinner - Keep You.mp3 */; };
-		4BE6B36E222FA89D0063A925 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BE6B36B222FA89D0063A925 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		462691C9223F9B3A00D62D58 /* AudioSpectrum02-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioSpectrum02-Bridging-Header.h"; sourceTree = "<group>"; };
 		462691CA223F9B3B00D62D58 /* lineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lineView.h; sourceTree = "<group>"; };
 		462691CB223F9B3B00D62D58 /* lineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lineView.m; sourceTree = "<group>"; };
+		462691CD22408AA600D62D58 /* 03.Spektrum & Sara Skinner - Keep You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03.Spektrum & Sara Skinner - Keep You.mp3"; sourceTree = "<group>"; };
+		462691CE22408AA600D62D58 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3"; sourceTree = "<group>"; };
+		462691CF22408AA600D62D58 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02.Ellis - Clear My Head (Radio Edit) [NCS].mp3"; sourceTree = "<group>"; };
 		4B11626C21F01C970012C977 /* RealtimeAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeAnalyzer.swift; sourceTree = "<group>"; };
 		4B582AE1221E8E4D00AD0AE0 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		4B79C0CF21F816D70005E365 /* SpectrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumView.swift; sourceTree = "<group>"; };
@@ -37,9 +40,6 @@
 		4B87BCEC21D515F900732679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B87BCEE21D515F900732679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BC64F7521D53B9A00EE2DB7 /* AudioSpectrumPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSpectrumPlayer.swift; sourceTree = "<group>"; };
-		4BE6B369222FA89D0063A925 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3"; sourceTree = "<group>"; };
-		4BE6B36A222FA89D0063A925 /* 03.Spektrum & Sara Skinner - Keep You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03.Spektrum & Sara Skinner - Keep You.mp3"; sourceTree = "<group>"; };
-		4BE6B36B222FA89D0063A925 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02.Ellis - Clear My Head (Radio Edit) [NCS].mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +101,9 @@
 		4BE6B368222FA89D0063A925 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				4BE6B369222FA89D0063A925 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 */,
-				4BE6B36A222FA89D0063A925 /* 03.Spektrum & Sara Skinner - Keep You.mp3 */,
-				4BE6B36B222FA89D0063A925 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 */,
+				462691CE22408AA600D62D58 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 */,
+				462691CF22408AA600D62D58 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 */,
+				462691CD22408AA600D62D58 /* 03.Spektrum & Sara Skinner - Keep You.mp3 */,
 			);
 			name = Audio;
 			path = ../Audio;
@@ -168,11 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE6B36D222FA89D0063A925 /* 03.Spektrum & Sara Skinner - Keep You.mp3 in Resources */,
-				4BE6B36C222FA89D0063A925 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 in Resources */,
+				462691D122408AA600D62D58 /* 01.Halcyon - Runaway (Feat. Valentina Franco) (Heuse Remix).mp3 in Resources */,
+				462691D222408AA600D62D58 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 in Resources */,
+				462691D022408AA600D62D58 /* 03.Spektrum & Sara Skinner - Keep You.mp3 in Resources */,
 				4B87BCED21D515F900732679 /* LaunchScreen.storyboard in Resources */,
 				4B87BCEA21D515F900732679 /* Assets.xcassets in Resources */,
-				4BE6B36E222FA89D0063A925 /* 02.Ellis - Clear My Head (Radio Edit) [NCS].mp3 in Resources */,
 				4B87BCE821D515F600732679 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,13 +338,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66RPE5ZKG7;
 				INFOPLIST_FILE = "$(SRCROOT)/AudioSpectrum02/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = potato04.AudioSpectrum02;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmw.study;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AudioSpectrum02/AudioSpectrum02-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -359,13 +359,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66RPE5ZKG7;
 				INFOPLIST_FILE = "$(SRCROOT)/AudioSpectrum02/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = potato04.AudioSpectrum02;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmw.study;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AudioSpectrum02/AudioSpectrum02-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
