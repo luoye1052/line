@@ -53,9 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		462691D62240BA6100D62D58 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		4B87BCD621D515F600732679 = {
 			isa = PBXGroup;
 			children = (
+				462691D62240BA6100D62D58 /* image */,
 				4BE6B368222FA89D0063A925 /* Audio */,
 				4B87BCE121D515F600732679 /* AudioSpectrum02 */,
 				4B87BCE021D515F600732679 /* Products */,
